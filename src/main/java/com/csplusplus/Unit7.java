@@ -35,7 +35,7 @@ public class Unit7 {
     public static void doubleAllElements(ArrayList<Integer> list) {
         // TODO: Implement this method
     	for(int i = 0; i<list.size();i++) {
-    		list.add(i,list.get(i));
+    		list.set(i,2* list.get(i));
     	}
     }
 
